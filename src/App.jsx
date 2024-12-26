@@ -5,6 +5,7 @@ import Card from "./components/card"
 import imgSrc1 from '../public/images/card1.png'
 import imgSrc2 from '../public/images/card2.png'
 import imgSrc3 from '../public/images/card3.png'
+import imgSrc4 from '../public/images/card4.png'
 
 
 
@@ -34,10 +35,18 @@ function App() {
       "price": "$24.92",
       "oldprice":"$32.90"
     },
+    {
+      "img":imgSrc4,
+      "title": "WEBSITE DEV ZERO TO HERO",
+      "name":"Kitani Studio",
+      "paragraphe":"More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...",
+      "price": "$24.92",
+      "oldprice":"$32.90"
+    },
 
   ]
   return (
-    <body className="mx-[]">
+    <body className="mx-[120px]">
       <Navbar />
       <section className='flex space-x-[24px]'>
       { cards.map((ele) =>   
