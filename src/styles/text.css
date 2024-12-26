@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-1 { @apply text-[61px] }
+.text-2 { @apply text-[48px] }
+.text-3 { @apply text-[40px] }
+.text-4 { @apply text-[32px] }
+.text-5 { @apply text-[24px] }
+.text-6 { @apply text-[20px] }
+.text-7 { @apply text-[16px] }
+.text-8 { @apply text-[12px] }

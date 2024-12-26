@@ -1,0 +1,8 @@
+@import 'text.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    .search{@apply w-full h-full text-7 bg-White30 px-[12px] py-[8px]}
+    .search-dark{@apply text-White60}
+    .search-light{ @apply text-Black60 }

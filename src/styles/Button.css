@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    .btn-sm { @apply px-4 py-2 text-8 rounded-md};
+    .btn-md { @apply px-4 py-2 text-7 rounded-lg };
+    .btn-lg { @apply px-6 py-3 text-6 rounded-[12px]};
+
+    /* typegraphie  */
+    .text-1 { @apply text-[61px] }
+    .text-2 { @apply text-[48px] }
+    .text-3 { @apply text-[40px] }
+    .text-4 { @apply text-[32px] }
+    .text-5 { @apply text-[24px] }
+    .text-6 { @apply text-[20px] }
+    .text-7 { @apply text-[16px] }
+    .text-8 { @apply text-[12px] }
+
+    /* buttons */
+    button{ @apply flex items-center justify-center gap-2 transition-all duration-200 ease-in-out font-poppins font-bold}
+    button[disabled]{ @apply bg-Black30 text-Black30 border-none   hover:bg-Black30 cursor-not-allowed }
+    .btn-primary{ @apply bg-primary text-white font-bold hover:bg-P80 border-none }
+    .btn-secondary{ @apply border border-Black60 font-bold text-Black60 hover:bg-white }
+
+

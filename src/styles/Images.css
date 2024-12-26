@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.logo-lg{@apply w-[151px] h-[43px]};
+.logo-md{@apply w-[114px] h-[32px]};
+.logo-sm{@apply w-[131px] h-[37px]};
